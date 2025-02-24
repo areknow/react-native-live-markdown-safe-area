@@ -1,9 +1,10 @@
-import { Animated, SafeAreaView, StyleSheet, Text } from "react-native";
+import { SafeAreaView, StyleSheet, Text } from "react-native";
 import {
   MarkdownTextInput,
   parseExpensiMark,
 } from "@expensify/react-native-live-markdown";
 import React from "react";
+import Animated from "react-native-reanimated";
 
 export default function App() {
   const [text, setText] = React.useState("Hello, *world*!");
